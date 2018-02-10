@@ -2,7 +2,7 @@ const Alexa = require('alexa-sdk');
 
 exports.handler = function(event, context, callback) {
     const alexa = Alexa.handler(event, context, callback);
-    alexa.appId = 'amzn1.ask.skill.59e60e2c-150b-4bce-8ddf-8f0e128b13ae' 
+    alexa.appId = 'amzn1.ask.skill.XXXXXX' 
     alexa.registerHandlers(handlers);
     alexa.execute()
 };
